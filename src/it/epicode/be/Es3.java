@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Es3 {
 
+	static Scanner myScanner = new Scanner(System.in);
+	
 	public static void main(String[] args) {
 		//exercise 3 - Using Scanner
 		System.out.println("Ex 3 - Using Scanner");
@@ -12,7 +14,7 @@ public class Es3 {
 	}
 
 	private static String stringsScanner() {
-		Scanner myScanner = new Scanner(System.in);
+		
 		System.out.println("Enter the first word:");
 		String firstWord = myScanner.nextLine();
 		System.out.println("Enter the second word:");
